@@ -1,0 +1,95 @@
+/*heading our menu */
+.header
+{
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	color:black;
+	font-size: 26px;
+	font-weight:bolder;
+}
+
+body
+{
+	font-family:Comic Sans MS;
+}
+*
+{
+	box-sizing: border-box;
+}
+.row
+{
+	width: 100%;
+}
+/*for outline of the box*/
+.box
+{
+	border:3px solid black;
+    text-align: left;
+    margin:2.5%;
+    height:auto;
+    background-color:#a1a0a0;
+}
+/* for smaller headings inside the box */
+.h1,.h2,.h3
+{
+	border:3px solid black;
+	float: right;
+	text-align: center;
+	padding:3px;
+	width:150px;
+	margin:0px;
+	font-weight: bold;
+	font-size: 18px;
+	position:relative;
+}
+.h1
+{
+	background-color: pink;
+}
+.h2
+{
+	background-color: #d14848;
+	color:white;
+}
+.h3
+{
+	background-color: #eaea99;
+}
+/* for paragraphs inside the box */
+.p1,.p2,.p3
+{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+/* for desktop screen */
+@media(min-width:992px)
+{
+	.col-lg-4{
+    float: left;
+    
+  }
+  
+  .col-lg-4 {
+    width: 33.33%;
+  }
+/* for tablet screen */ 
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-md-6, .col-md-12 {
+    float: left;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  .col-md-12 {
+    width: 100%;
+    margin-left: -10px;
+    margin-right: -1px;
+  }
+}
